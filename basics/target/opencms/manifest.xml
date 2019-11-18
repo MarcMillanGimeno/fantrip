@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<export>
+	<info>
+		<infoproject>Offline</infoproject>
+		<export_version>10</export_version>
+	</info>
+	<module>
+		<name>com.fantrip.opencms.clickfantrip.basics</name>
+		<nicename><![CDATA[basics]]></nicename>
+		<class/>
+		<site>/</site>
+		<export-mode name="reduced"/>
+		<description><![CDATA[Module responsible for styling the web]]></description>
+		<version>0.1</version>
+		<authorname><![CDATA[Marc Millan Gimeno]]></authorname>
+		<authoremail><![CDATA[fantrip@enjoyfantrip.com]]></authoremail>
+		<datecreated/>
+		<userinstalled/>
+		<dateinstalled/>
+		<dependencies/>
+		<exportpoints/>
+		<resources>
+			<resource uri="/system/modules/com.fantrip.opencms.clickfantrip.basics/css/"/>
+			<resource uri="/system/modules/com.fantrip.opencms.clickfantrip.basics/fonts"/>
+			<resource uri="/system/modules/com.fantrip.opencms.clickfantrip.basics/js"/>
+			<resource uri="/system/modules/com.fantrip.opencms.clickfantrip.basics/scss"/>
+		</resources>
+		<excluderesources/>
+		<parameters/>
+	</module>
+	<files>
+		<file>
+			<destination>system</destination>
+			<type>folder</type>
+			<properties/>
+		</file>
+		<file>
+			<destination>system/modules</destination>
+			<type>folder</type>
+			<properties/>
+		</file>
+		<file>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.basics</destination>
+			<type>folder</type>
+			<uuidstructure>e8ba896a-ecdc-11e9-9fbe-04922659cd14</uuidstructure>
+			<datecreated>Sat, 12 Oct 2019 10:41:55 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.fantrip.opencms.clickfantrip.basics/.config</source>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.basics/.config</destination>
+			<type>module_config</type>
+			<uuidstructure>e8bbe8fc-ecdc-11e9-9fbe-04922659cd14</uuidstructure>
+			<uuidresource>e8bbe8fd-ecdc-11e9-9fbe-04922659cd14</uuidresource>
+			<datecreated>Sat, 12 Oct 2019 10:41:55 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.basics/css</destination>
+			<type>folder</type>
+			<uuidstructure>0dbbf4c1-ecdd-11e9-9fbe-04922659cd14</uuidstructure>
+			<datecreated>Sat, 12 Oct 2019 10:42:57 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[CSS folder]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.basics/fonts</destination>
+			<type>folder</type>
+			<uuidstructure>174c1384-ecdd-11e9-9fbe-04922659cd14</uuidstructure>
+			<datecreated>Sat, 12 Oct 2019 10:43:13 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[FONTS folder]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.basics/img</destination>
+			<type>folder</type>
+			<uuidstructure>1e4819e7-ecdd-11e9-9fbe-04922659cd14</uuidstructure>
+			<datecreated>Sat, 12 Oct 2019 10:43:25 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.basics/js</destination>
+			<type>folder</type>
+			<uuidstructure>227ac719-ecdd-11e9-9fbe-04922659cd14</uuidstructure>
+			<datecreated>Sat, 12 Oct 2019 10:43:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.basics/scss</destination>
+			<type>folder</type>
+			<uuidstructure>227ac719-ecdd-11e9-9fbe-04922659cd18</uuidstructure>
+			<datecreated>Sat, 12 Oct 2019 10:43:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.fantrip.opencms.clickfantrip.basics/css/fantrip_style.css</source>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.basics/css/fantrip_style.css</destination>
+			<type>plain</type>
+			<uuidstructure>227ac719-ecdd-11e4-9fbe-04922659cd18</uuidstructure>
+			<uuidresource>227ac719-ecdd-11e4-9fbe-04922659cd19</uuidresource>
+			<datecreated>Sat, 12 Oct 2019 10:43:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value>style</value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<!-- Check if it is necessary declare fonts files -->
+		<file>
+			<source>system/modules/com.fantrip.opencms.clickfantrip.basics/fonts/Montserrat-Black.ttf</source>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.basics/fonts/Montserrat-Black.ttf</destination>
+			<type>plain</type>
+			<uuidstructure>227ac819-ecdd-11e9-9fbe-04922659cd28</uuidstructure>
+			<uuidresource>227ac719-ecdd-11e4-9fbe-04922659cd39</uuidresource>
+			<datecreated>Sat, 12 Oct 2019 10:43:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value>Montserrat-Black</value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.fantrip.opencms.clickfantrip.basics/css/bootstrap.min.css</source>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.basics/css/bootstrap.min.css</destination>
+			<type>plain</type>
+			<uuidstructure>227ac519-ecdd-11e9-9fbe-04922659cd28</uuidstructure>
+			<uuidresource>227ac419-ecdd-11e4-9fbe-04922659cd39</uuidresource>
+			<datecreated>Sat, 12 Oct 2019 10:43:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value>Bootstrap style</value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.fantrip.opencms.clickfantrip.basics/js/bootstrap.min.js</source>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.basics/js/bootstrap.min.js</destination>
+			<type>plain</type>
+			<uuidstructure>237ac519-ecdd-11e9-9fbe-04922659cd28</uuidstructure>
+			<uuidresource>357ac419-ecdd-11e4-9fbe-04922659cd39</uuidresource>
+			<datecreated>Sat, 12 Oct 2019 10:43:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value>Bootstrap js</value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.fantrip.opencms.clickfantrip.basics/js/jquery-3.4.1.min.js</source>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.basics/js/jquery-3.4.1.min.js</destination>
+			<type>plain</type>
+			<uuidstructure>237ac519-ecdd-11e9-9fbe-04944659cd28</uuidstructure>
+			<uuidresource>357ac419-ecdd-11e4-9fbe-04948659cd39</uuidresource>
+			<datecreated>Sat, 12 Oct 2019 10:43:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value>Jquery js</value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+	</files>
+</export>

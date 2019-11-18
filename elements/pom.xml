@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>com.fantrip.opencms.clickfantrip</groupId>
+		<artifactId>maven-father</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>elements</artifactId>
+	<name>elements</name>
+	<url>http://maven.apache.org</url>
+	<properties/>
+	
+	<build>
+
+		<pluginManagement>
+			<plugins>
+				
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-release-plugin</artifactId>
+					<version>2.5.3</version>
+					<configuration>
+						<goals>deploy site-deploy</goals>
+						<preparationGoals>clean install</preparationGoals>
+						<generateJiraAnnouncement>false</generateJiraAnnouncement>
+						<autoVersionSubmodules>true</autoVersionSubmodules>
+						<remoteTagging>true</remoteTagging>
+					</configuration>
+				</plugin>
+			</plugins>
+			
+		</pluginManagement>
+	</build>
+	<dependencies>
+		<dependency>
+		    <groupId>junit</groupId>
+		    <artifactId>junit</artifactId>
+		    <version>4.10</version>
+		    <scope>test</scope>
+		</dependency>
+		<dependency>
+		    <groupId>org.opencms.modules</groupId>
+		    <artifactId>org.opencms.workplace.tools.workplace</artifactId>
+		    <version>8.5.0</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.opencms</groupId>
+		    <artifactId>opencms-core</artifactId>
+		    <version>8.5.2</version>
+		</dependency>
+		<dependency>
+		  <groupId>org.safehaus.jug</groupId>
+		  <artifactId>jug</artifactId>
+		  <version>2.0.0</version>
+		  <classifier>asl</classifier>
+		</dependency>
+	</dependencies>
+</project>

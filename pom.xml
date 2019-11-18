@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.fantrip.opencms.clickfantrip</groupId>
+  <artifactId>maven-father</artifactId>
+  <packaging>pom</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>clickfantrip</name>
+  <url>https://clickfantrip.com</url>
+  
+  
+  <properties>
+  
+ 		 <!-- Generic properties -->
+		<java.version>1.8</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<junit.version>4.13</junit.version>
+		
+		<opencmsdir>${project.basedir}/src/main/opencms</opencmsdir>
+		<modulesversion>${parsedVersion.majorVersion}.${parsedVersion.minorVersion}.${parsedVersion.incrementalVersion}</modulesversion>
+			
+		<!-- Maven properties -->
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<!-- Web -->
+		
+		<!-- Opencms -->
+		
+		
+		<!-- Apache commons logging -->
+		
+  </properties>
+  
+  <!-- Suversion url -->
+	
+  
+	<build>
+		<finalName>${project.groupId}.${project.artifactId}</finalName>
+		<resources>
+			<resource>
+				<directory>${opencmsdir}</directory>
+				<filtering>true</filtering>
+				<targetPath>../opencms</targetPath>
+				<includes>
+					<include>**/*.xml</include>
+				</includes>
+			</resource>
+			<resource>
+				<directory>${opencmsdir}</directory>
+				<filtering>false</filtering>
+				<targetPath>../opencms</targetPath>
+				<excludes>
+					<exclude>**/*.xml</exclude>
+				</excludes>
+			</resource>
+		</resources>
+		<pluginManagement>
+	        <plugins>
+	       		<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-release-plugin</artifactId>
+					<version>2.5.3</version>
+					<configuration>
+						<goals>deploy site-deploy</goals>
+						<preparationGoals>clean install</preparationGoals>
+						<generateJiraAnnouncement>false</generateJiraAnnouncement>
+						<autoVersionSubmodules>true</autoVersionSubmodules>
+						<remoteTagging>true</remoteTagging>
+					</configuration>
+				</plugin>
+	        </plugins>
+	        
+	     </pluginManagement>
+	     
+	     <plugins>
+	        	<plugin><!-- Make the zip of the module to upload to opencms -->
+					<artifactId>maven-antrun-plugin</artifactId>
+					<version>1.8</version><!--$NO-MVN-MAN-VER$-->
+					<executions>
+						<execution>
+							<phase>package</phase>
+							<configuration>
+								<target>
+									<taskdef resource="net/sf/antcontrib/antcontrib.properties" classpathref="maven.plugin.classpath" />
+									<property name="opencms_srcdir" value="${project.build.directory}/opencms" />
+									<echo>Generating OpencmsModule on ${opencms_srcdir}</echo>
+									<if><!-- generate the module if the opencms directory exists -->
+										<available file="${opencms_srcdir}" type="dir" />
+										<then>
+											<zip destfile="${project.build.directory}/${project.build.finalName}.zip">
+												<fileset dir="${opencms_srcdir}" />
+												<zipfileset dir="${project.build.directory}" includes="${project.build.finalName}.jar" fullpath="system/modules/${project.groupId}.${project.artifactId}/lib/${project.build.finalName}.jar" />
+												
+												<zipfileset dir="${project.build.directory}/classes" includes="**" prefix="system/modules/${project.groupId}.${project.artifactId}/classes" />
+											</zip>
+											<echo>Generating OpencmsModule ${project.build.finalName}.zip</echo>
+										</then>
+									</if><!-- no opencms dir so no module generated -->
+								</target>
+							</configuration>
+							<goals>
+								<goal>run</goal>
+							</goals>
+						</execution>
+					</executions>
+					<dependencies>
+						<dependency>
+							<groupId>ant-contrib</groupId>
+							<artifactId>ant-contrib</artifactId>
+							<version>20020829</version>
+						</dependency>
+					</dependencies><!-- end Make the zip of the module to upload to opencms -->
+				</plugin>
+				
+			    <plugin><!-- Module version -->
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>build-helper-maven-plugin</artifactId>
+					<version>1.10</version>
+					<executions>
+						<execution>
+							<id>parse-version</id>
+							<goals>
+								<goal>parse-version</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin><!-- End Module version -->
+			</plugins>
+    </build>
+    <dependencies>
+	<dependency>
+	   <groupId>org.opencms.modules</groupId>
+	   <artifactId>org.opencms.ade.config</artifactId>
+	   <version>8.5.2</version>
+	</dependency>
+</dependencies>
+	<profiles />
+	
+	<modules>
+    	<module>views</module>
+    	<module>elements</module>
+    	<module>basics</module>
+	</modules>
+</project>

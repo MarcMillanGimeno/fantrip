@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
+  <NewFormatter language="en">
+    <NiceName><![CDATA[InformationTemplateSection]]></NiceName>
+    <Type><![CDATA[m-layout-row-complex]]></Type>
+    <Jsp>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.fantrip.opencms.clickfantrip.views/template/information-section/template-information-section.jsp]]></target>
+        <uuid>4f53bdb8-f51f-11e9-98c9-04922659cd14</uuid>
+      </link>
+    </Jsp>
+    <Description><![CDATA[InformationTemplateSection]]></Description>
+    <Rank><![CDATA[1000]]></Rank>
+    <Match>
+      <Types>
+        <ContainerType><![CDATA[template]]></ContainerType>
+      </Types>
+    </Match>
+    <AutoEnabled>true</AutoEnabled>
+    <SearchContent>true</SearchContent>
+    <StrictContainers>true</StrictContainers>
+    <AlwaysApplyMetaMappings>false</AlwaysApplyMetaMappings>
+  </NewFormatter>
+</NewFormatters>

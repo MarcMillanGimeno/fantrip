@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <taskdef resource="net/sf/antcontrib/antcontrib.properties" classpathref="maven.plugin.classpath"/>
+  <property name="opencms_srcdir" value="C:\Users\Marc Millan\eclipse-workspace\modules\views\target/opencms"/>
+  <echo>Generating OpencmsModule on ${opencms_srcdir}</echo>
+  <if>
+    <available file="${opencms_srcdir}" type="dir"/>
+    <then>
+      <zip destfile="C:\Users\Marc Millan\eclipse-workspace\modules\views\target/com.fantrip.opencms.clickfantrip.views.zip">
+        <fileset dir="${opencms_srcdir}"/>
+        <zipfileset fullpath="system/modules/com.fantrip.opencms.clickfantrip.views/lib/com.fantrip.opencms.clickfantrip.views.jar" includes="com.fantrip.opencms.clickfantrip.views.jar" dir="C:\Users\Marc Millan\eclipse-workspace\modules\views\target"/>
+        <zipfileset prefix="system/modules/com.fantrip.opencms.clickfantrip.views/classes" includes="**" dir="C:\Users\Marc Millan\eclipse-workspace\modules\views\target/classes"/>
+      </zip>
+      <echo>Generating OpencmsModule com.fantrip.opencms.clickfantrip.views.zip</echo>
+    </then>
+  </if>
+</target>
+</project>
