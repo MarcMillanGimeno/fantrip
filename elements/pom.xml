@@ -48,7 +48,7 @@
 		<dependency>
 		    <groupId>org.opencms</groupId>
 		    <artifactId>opencms-core</artifactId>
-		    <version>8.5.2</version>
+		    <version>11.0.1</version>
 		</dependency>
 		<dependency>
 		  <groupId>org.safehaus.jug</groupId>
