@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE xml>
 
 <export>
 	<info>
@@ -44,37 +43,7 @@
 		<file>
 			<destination>system/modules/com.fantrip.opencms.clickfantrip.basics</destination>
 			<type>folder</type>
-			<uuidstructure>e8ba896a-ecdc-11e9-9fbe-04922659cd14</uuidstructure>
-			<datecreated>Sat, 12 Oct 2019 10:41:55 GMT</datecreated>
-			<flags>0</flags>
 			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.fantrip.opencms.clickfantrip.basics/.config</source>
-			<destination>system/modules/com.fantrip.opencms.clickfantrip.basics/.config</destination>
-			<type>module_config</type>
-			<uuidstructure>e8bbe8fc-ecdc-11e9-9fbe-04922659cd14</uuidstructure>
-			<uuidresource>e8bbe8fd-ecdc-11e9-9fbe-04922659cd14</uuidresource>
-			<datecreated>Sat, 12 Oct 2019 10:41:55 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>locale</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>locale-available</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>search.exclude</name>
-					<value><![CDATA[all]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
 		</file>
 		<file>
 			<destination>system/modules/com.fantrip.opencms.clickfantrip.basics/css</destination>
@@ -86,6 +55,40 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[CSS folder]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.fantrip.opencms.clickfantrip.basics/css/bootstrap.min.css</source>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.basics/css/bootstrap.min.css</destination>
+			<type>plain</type>
+			<uuidstructure>227ac519-ecdd-11e9-9fbe-04922659cd28</uuidstructure>
+			<uuidresource>227ac419-ecdd-11e4-9fbe-04922659cd39</uuidresource>
+			<datecreated>Sat, 12 Oct 2019 10:43:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Bootstrap style]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.fantrip.opencms.clickfantrip.basics/css/fantrip_style.css</source>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.basics/css/fantrip_style.css</destination>
+			<type>plain</type>
+			<uuidstructure>227ac719-ecdd-11e4-9fbe-04922659cd18</uuidstructure>
+			<uuidresource>227ac719-ecdd-11e4-9fbe-04922659cd19</uuidresource>
+			<datecreated>Sat, 12 Oct 2019 10:43:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[style]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -107,12 +110,19 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>system/modules/com.fantrip.opencms.clickfantrip.basics/img</destination>
-			<type>folder</type>
-			<uuidstructure>1e4819e7-ecdd-11e9-9fbe-04922659cd14</uuidstructure>
-			<datecreated>Sat, 12 Oct 2019 10:43:25 GMT</datecreated>
+			<source>system/modules/com.fantrip.opencms.clickfantrip.basics/fonts/Montserrat-Black.ttf</source>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.basics/fonts/Montserrat-Black.ttf</destination>
+			<type>plain</type>
+			<uuidstructure>227ac819-ecdd-11e9-9fbe-04922659cd28</uuidstructure>
+			<uuidresource>227ac719-ecdd-11e4-9fbe-04922659cd39</uuidresource>
+			<datecreated>Sat, 12 Oct 2019 10:43:32 GMT</datecreated>
 			<flags>0</flags>
-			<properties/>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Montserrat-Black]]></value>
+				</property>
+			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
@@ -127,68 +137,6 @@
 			<accesscontrol/>
 		</file>
 		<file>
-			<destination>system/modules/com.fantrip.opencms.clickfantrip.basics/scss</destination>
-			<type>folder</type>
-			<uuidstructure>227ac719-ecdd-11e9-9fbe-04922659cd18</uuidstructure>
-			<datecreated>Sat, 12 Oct 2019 10:43:32 GMT</datecreated>
-			<flags>0</flags>
-			<properties/>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.fantrip.opencms.clickfantrip.basics/css/fantrip_style.css</source>
-			<destination>system/modules/com.fantrip.opencms.clickfantrip.basics/css/fantrip_style.css</destination>
-			<type>plain</type>
-			<uuidstructure>227ac719-ecdd-11e4-9fbe-04922659cd18</uuidstructure>
-			<uuidresource>227ac719-ecdd-11e4-9fbe-04922659cd19</uuidresource>
-			<datecreated>Sat, 12 Oct 2019 10:43:32 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value>style</value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<!-- Check if it is necessary declare fonts files -->
-		<file>
-			<source>system/modules/com.fantrip.opencms.clickfantrip.basics/fonts/Montserrat-Black.ttf</source>
-			<destination>system/modules/com.fantrip.opencms.clickfantrip.basics/fonts/Montserrat-Black.ttf</destination>
-			<type>plain</type>
-			<uuidstructure>227ac819-ecdd-11e9-9fbe-04922659cd28</uuidstructure>
-			<uuidresource>227ac719-ecdd-11e4-9fbe-04922659cd39</uuidresource>
-			<datecreated>Sat, 12 Oct 2019 10:43:32 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value>Montserrat-Black</value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
-			<source>system/modules/com.fantrip.opencms.clickfantrip.basics/css/bootstrap.min.css</source>
-			<destination>system/modules/com.fantrip.opencms.clickfantrip.basics/css/bootstrap.min.css</destination>
-			<type>plain</type>
-			<uuidstructure>227ac519-ecdd-11e9-9fbe-04922659cd28</uuidstructure>
-			<uuidresource>227ac419-ecdd-11e4-9fbe-04922659cd39</uuidresource>
-			<datecreated>Sat, 12 Oct 2019 10:43:32 GMT</datecreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Title</name>
-					<value>Bootstrap style</value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
-		</file>
-		<file>
 			<source>system/modules/com.fantrip.opencms.clickfantrip.basics/js/bootstrap.min.js</source>
 			<destination>system/modules/com.fantrip.opencms.clickfantrip.basics/js/bootstrap.min.js</destination>
 			<type>plain</type>
@@ -199,7 +147,7 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value>Bootstrap js</value>
+					<value><![CDATA[Bootstrap js]]></value>
 				</property>
 			</properties>
 			<relations/>
@@ -216,9 +164,19 @@
 			<properties>
 				<property>
 					<name>Title</name>
-					<value>Jquery js</value>
+					<value><![CDATA[Jquery js]]></value>
 				</property>
 			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.basics/scss</destination>
+			<type>folder</type>
+			<uuidstructure>227ac719-ecdd-11e9-9fbe-04922659cd18</uuidstructure>
+			<datecreated>Sat, 12 Oct 2019 10:43:32 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
 			<relations/>
 			<accesscontrol/>
 		</file>

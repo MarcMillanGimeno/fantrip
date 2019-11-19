@@ -34,7 +34,7 @@ java.util.List"%>
 		<div class="row content-guides-container justify-content-center">
 			<div class="guides-container-carrusel-items col-xl-3 col-lg-3 col-md-6 col-sm-12 guide-item1">
 				<a class="icon-info-app" href="">
-					<img class="img-item-guide" src=".content/imatges/test-harrypotter.JPG" alt="Vuelos">
+					<img class="img-item-guide" src="<cms:link>/.content/imatges/test-harrypotter.JPG</cms:link>" alt="Vuelos">
 				</a>
 				
 				<div class="guides-container-items-hover">
@@ -54,7 +54,7 @@ java.util.List"%>
 			</div>
 			<div class="guides-container-carrusel-items col-xl-3 col-lg-3 col-md-6 col-sm-12  guide-item2">
 				<a class="icon-info-app" href="">
-					<img class="img-item-guide" src=".content/imatges/test-harrypotter.JPG" alt="Vuelos">
+					<img class="img-item-guide" src="<cms:link>/.content/imatges/test-harrypotter.JPG</cms:link>" alt="Vuelos">
 				</a>
 				<div class="guides-container-items-hover">
 					<div class="guides-container-items-content">
@@ -72,7 +72,7 @@ java.util.List"%>
 			</div>
 			<div class="guides-container-carrusel-items col-xl-3 col-lg-3 col-md-6 col-sm-12 guide-item3">
 				<a class="icon-info-app" href="">
-					<img class="img-item-guide" src=".content/imatges/test-harrypotter.JPG" alt="Vuelos">
+					<img class="img-item-guide" src="<cms:link>/.content/imatges/test-harrypotter.JPG</cms:link>" alt="Vuelos">
 				</a>
 				<div class="guides-container-items-hover">
 					<div class="guides-container-items-content">
@@ -90,7 +90,7 @@ java.util.List"%>
 			</div>
 			<div class="guides-container-carrusel-items col-xl-3 col-lg-3 col-md-6 col-sm-12  guide-item4">
 				<a class="icon-info-app" href="">
-					<img class="img-item-guide" src=".content/imatges/test-harrypotter.JPG" alt="Vuelos">
+					<img class="img-item-guide" src="<cms:link>/.content/imatges/test-harrypotter.JPG</cms:link>" alt="Vuelos">
 				</a>
 				<div class="guides-container-items-hover">
 					<div class="guides-container-items-content">

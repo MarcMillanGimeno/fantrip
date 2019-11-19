@@ -7,14 +7,14 @@
     <Jsp>
       <link type="WEAK">
         <target><![CDATA[/system/modules/com.fantrip.opencms.clickfantrip.views/template/footer/template-footer.jsp]]></target>
-        <uuid>55c9eda9-ff3f-11e9-97bb-04922659cd14</uuid>
+        <uuid>c2bfd63f-ecd2-11e9-9fbe-14922669cd14</uuid>
       </link>
     </Jsp>
     <Description><![CDATA[FooterTemplateSection]]></Description>
     <Rank><![CDATA[1000]]></Rank>
     <Match>
       <Types>
-        <ContainerType><![CDATA[template]]></ContainerType>
+        <ContainerType><![CDATA[element]]></ContainerType>
       </Types>
     </Match>
     <AutoEnabled>true</AutoEnabled>

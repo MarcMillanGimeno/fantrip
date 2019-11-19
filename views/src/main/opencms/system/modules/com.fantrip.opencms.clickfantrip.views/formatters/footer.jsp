@@ -20,7 +20,6 @@ java.util.List"%>
 <%@ page import="org.opencms.flex.CmsFlexController"%>
 
 <formatter var="content">
-	<div id="footer-container">
 	<footer class="page-footer font-small unique-color-dark pt-4">
 		<div class="container footer-container-div">
 			<div class="row footer-section">
@@ -56,19 +55,19 @@ java.util.List"%>
 							<hr class="separator-line-footer-title4"><!-- linea color -->
 							<div class="row icons-footer-follow">
 								<a class="icon-follow-a" href="https://clickfantrip.com">
-									<img src="<cms:link>/.content/imatges/footer-icons/facebook-icon.png</cms:link>" alt="facebook-fantrip" />
+									<img src=".content/imatges/footer-icons/facebook-icon.png" alt="facebook-fantrip" />
 									<span class="sr-icon-follow">FanTrip-Facebook</span>
 								</a>
 								<a class="icon-follow-a" href="https://clickfantrip.com">
-									<img src="<cms:link>/.content/imatges/footer-icons/instagram-icon.png</cms:link>" alt="instagram-fantrip" />
+									<img src=".content/imatges/footer-icons/instagram-icon.png" alt="instagram-fantrip" />
 									<span class="sr-icon-follow">FanTrip-Instagram</span>
 								</a>
 								<a class="icon-follow-a" href="https://clickfantrip.com">
-									<img src="<cms:link>/.content/imatges/footer-icons/twitter-icon.png</cms:link>" alt="twitter-fantrip" />
+									<img src=".content/imatges/footer-icons/twitter-icon.png" alt="twitter-fantrip" />
 									<span class="sr-icon-follow">FanTrip-Twitter</span>
 								</a>
 								<a class="icon-follow-a" href="https://clickfantrip.com">
-									<img src="<cms:link>/.content/imatges/footer-icons/youtube-icon.png</cms:link>" alt="youtube-fantrip" />
+									<img src=".content/imatges/footer-icons/youtube-icon.png" alt="youtube-fantrip" />
 									<span class="sr-icon-follow">FanTrip-Youtube</span>
 								</a>
 							</div>
@@ -77,9 +76,8 @@ java.util.List"%>
 				</div>
 			</div>
 		</div>
-		<img class="colors-fantrip-img" src="<cms:link>/.content/imatges/footer-icons/footer-colors-glitch.gif</cms:link>" alt="colors-fantrip" />
+		<img class="colors-fantrip-img" src=".content/imatges/footer-icons/footer-colors-1.png" alt="colors-fantrip" />
 	</footer>
-	</div>
 </formatter>
 
 

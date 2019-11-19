@@ -7,7 +7,7 @@
     <Jsp>
       <link type="WEAK">
         <target><![CDATA[/system/modules/com.fantrip.opencms.clickfantrip.views/template/header/template-header-selector.jsp]]></target>
-        <uuid>662926f3-ee09-11e9-98c9-04922659cd14</uuid>
+        <uuid>9f6673cd-e4a1-22e9-b0bf-04922659cd14</uuid>
       </link>
     </Jsp>
     <Description><![CDATA[HeaderTemplateSelector]]></Description>

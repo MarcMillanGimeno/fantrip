@@ -2,27 +2,28 @@
 
 <NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
   <NewFormatter language="en">
-    <NiceName><![CDATA[Publicacion destacada]]></NiceName>
+    <NiceName><![CDATA[destacado]]></NiceName>
     <Type><![CDATA[destacado]]></Type>
     <Jsp>
       <link type="WEAK">
         <target><![CDATA[/system/modules/com.fantrip.opencms.clickfantrip.elements/formatters/destacado.jsp]]></target>
-        <uuid>a1c33cfb-00ec-11ea-a9fa-04922659cd14</uuid>
+        <uuid>e1e1143d-0996-11ea-b731-04922659cd14</uuid>
       </link>
     </Jsp>
+    <Description><![CDATA[destacado]]></Description>
     <Rank><![CDATA[1000]]></Rank>
     <Match>
       <Types>
-        <ContainerType><![CDATA[formatter]]></ContainerType>
+        <ContainerType><![CDATA[element]]></ContainerType>
+        <ContainerType><![CDATA[row]]></ContainerType>
+        <ContainerType><![CDATA[area]]></ContainerType>
       </Types>
     </Match>
-    <Display><![CDATA[Destacado]]></Display>
+    <Display><![CDATA[destacado]]></Display>
     <AutoEnabled>true</AutoEnabled>
-    <SearchContent>true</SearchContent>
-    <StrictContainers>false</StrictContainers>
+    <SearchContent>false</SearchContent>
+    <StrictContainers>true</StrictContainers>
     <Detail>true</Detail>
     <NestedFormatterSettings>true</NestedFormatterSettings>
-    <AllowsSettingsInEditor>true</AllowsSettingsInEditor>
-    <Preview>true</Preview>
   </NewFormatter>
 </NewFormatters>

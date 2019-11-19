@@ -36,7 +36,7 @@ java.util.List"%>
 
 				<div class="section-info-guides-phone col-xl-6 col-lg-6 col-md-6 col-sm-12">
 					<a class="icon-info-app" href="">
-						<img class="mobile-section-app phone-header-footer" src=".content/imatges/info-app-section/iphone-harry-potterantrip-guide.png" alt="Vuelos">
+						<img class="mobile-section-app phone-header-footer" src="<cms:link>/.content/imatges/info-app-section/iphone-harry-potterantrip-guide.png</cms:link>" alt="Vuelos">
 					</a>	
 				</div>
 
@@ -45,7 +45,7 @@ java.util.List"%>
 
 						<div class="icons-section-info-div section-info-guides-item2 col-xl-6 col-lg-6 col-md-6 col-sm-12">
 							<a class="icon-info-app" href="">
-								<img class="icons-section-app icon-2-gallery-footer" src=".content/imatges/info-app-section/icon-info-app-fly1.png" alt="Vuelos">
+								<img class="icons-section-app icon-2-gallery-footer" src="<cms:link>/.content/imatges/info-app-section/icon-info-app-fly1.png</cms:link>" alt="Vuelos">
 								<p class="title-icon-info-app">
 									Escenarios en la vida real
 								</p>
@@ -58,7 +58,7 @@ java.util.List"%>
 
 						<div class="icons-section-info-div section-info-guides-item1 col-xl-6 col-lg-6 col-md-6 col-sm-12">
 							<a class="icon-info-app" href="">
-								<img class="icons-section-app icon-1-gallery-footer" src=".content/imatges/info-app-section/icon-info-app-cine1.png" alt="Vuelos">
+								<img class="icons-section-app icon-1-gallery-footer" src="<cms:link>/.content/imatges/info-app-section/icon-info-app-cine1.png</cms:link>" alt="Vuelos">
 								<p class="title-icon-info-app">
 									Universo de la serie/película
 								</p>
@@ -74,7 +74,7 @@ java.util.List"%>
 
 						<div class="icons-section-info-div section-info-guides-item4 col-xl-6 col-lg-6 col-md-6 col-sm-12">
 							<a class="icon-info-app" href="">
-								<img class="icons-section-app icon-4-gallery-footer" src=".content/imatges/info-app-section/icon-info-app-scene1.png" alt="Vuelos">
+								<img class="icons-section-app icon-4-gallery-footer" src="<cms:link>/.content/imatges/info-app-section/icon-info-app-scene1.png</cms:link>" alt="Vuelos">
 								<p class="title-icon-info-app">
 									Google MyMaps
 								</p>
@@ -87,7 +87,7 @@ java.util.List"%>
 
 						<div class="icons-section-info-div section-info-guides-item3 col-xl-6 col-lg-6 col-md-6 col-sm-12">
 							<a class="icon-info-app" href="">
-								<img class="icons-section-app icon-3-gallery-footer" src=".content/imatges/info-app-section/icon-info-app-maps1.png" alt="Vuelos">
+								<img class="icons-section-app icon-3-gallery-footer" src="<cms:link>/.content/imatges/info-app-section/icon-info-app-maps1.png</cms:link>" alt="Vuelos">
 								<p class="title-icon-info-app">
 									Información Turistica
 								</p>

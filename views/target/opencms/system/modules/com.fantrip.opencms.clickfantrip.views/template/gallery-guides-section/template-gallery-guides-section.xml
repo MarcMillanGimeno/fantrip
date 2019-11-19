@@ -7,7 +7,7 @@
     <Jsp>
       <link type="WEAK">
         <target><![CDATA[/system/modules/com.fantrip.opencms.clickfantrip.views/template/gallery-guides-section/template-gallery-guides-section.jsp]]></target>
-        <uuid>4bb3e4ef-f5e4-11e9-9c0e-04922659cd14</uuid>
+        <uuid>1d923de9-3637-88e7-b804-54ee75c6c19a</uuid>
       </link>
     </Jsp>
     <Description><![CDATA[GalleryGuidesTemplateSection]]></Description>

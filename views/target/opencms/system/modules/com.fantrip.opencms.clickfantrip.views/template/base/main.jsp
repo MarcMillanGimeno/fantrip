@@ -7,7 +7,7 @@
 
 <body id="top">
 
-	<cms:container name="body" type="template" width="1200" maxElements="15">
+	<cms:container name="body" type="area" width="1200" maxElements="15">
 
 		<cms:bundle basename="alkacon.mercury.template.messages">
 			<mercury:alert type="error">
@@ -33,4 +33,4 @@
 	
 </body>
 
-<cms:include file="%(link.weak:/system/modules/com.fantrip.opencms.clickfantrip.views/template/base/footer.jsp)"/> 
+<cms:include file="%(link.weak:/system/modules/com.fantrip.opencms.clickfantrip.views/template/base/footer.jsp:2799fd43-ea05-11e9-99c8-04922659cd14)"/> 

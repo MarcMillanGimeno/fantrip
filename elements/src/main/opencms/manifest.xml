@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE xml>
 
 <export>
 	<info>
@@ -9,317 +8,260 @@
 	<module>
 		<name>com.fantrip.opencms.clickfantrip.elements</name>
 		<nicename><![CDATA[elements]]></nicename>
-	<class/>
-	<site>/</site>
-	<export-mode name="reduced"/>
-	<description><![CDATA[Clases java, formatters ...]]></description>
-	<version>0</version>
-	<authorname/>
-	<authoremail/>
-	<datecreated/>
-	<userinstalled/>
-	<dateinstalled/>
-	<dependencies/>
-	<exportpoints>
-		<exportpoint uri="/system/modules/com.fantrip.opencms.clickfantrip.elements/lib/" destination="WEB-INF/lib/"/>
-		<exportpoint uri="/system/modules/com.fantrip.opencms.clickfantrip.elements/classes/" destination="WEB-INF/classes/"/>
-	</exportpoints>
-	<resources>
-		<resource uri="/system/modules/com.fantrip.opencms.clickfantrip.elements/"/>
-	</resources>
-	<excluderesources/>
-	<parameters/>
-</module>
-<files>
-	<file>
-		<destination>system</destination>
-		<type>folder</type>
-		<properties/>
-	</file>
-	<file>
-		<destination>system/modules</destination>
-		<type>folder</type>
-		<properties/>
-	</file>
-	<file>
-		<destination>system/modules/com.fantrip.opencms.clickfantrip.elements</destination>
-		<type>folder</type>
-		<uuidstructure>94e9fbba-e2de-11e9-8ed0-04922659cd14</uuidstructure>
-		<datecreated>Sun, 29 Sep 2019 17:28:42 GMT</datecreated>
-		<flags>0</flags>
-		<properties/>
-		<relations/>
-		<accesscontrol/>
-	</file>
-	<file>
-		<source>system/modules/com.fantrip.opencms.clickfantrip.elements/.config</source>
-		<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/.config</destination>
-		<type>module_config</type>
-		<uuidstructure>94fb60dc-e2de-11e9-8ed0-04922659cd14</uuidstructure>
-		<uuidresource>94fb60dd-e2de-11e9-8ed0-04922659cd14</uuidresource>
-		<datecreated>Sun, 29 Sep 2019 17:28:42 GMT</datecreated>
-		<flags>0</flags>
-		<properties>
-			<property>
-				<name>locale</name>
-				<value><![CDATA[en]]></value>
-			</property>
-			<property>
-				<name>locale-available</name>
-				<value><![CDATA[en]]></value>
-			</property>
-			<property>
-				<name>search.exclude</name>
-				<value><![CDATA[all]]></value>
-			</property>
-		</properties>
-		<relations/>
-		<accesscontrol/>
-	</file>
-	<file>
-		<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/classes</destination>
-		<type>folder</type>
-		<uuidstructure>9503ec6a-e2de-11e9-8ed0-04922659cd14</uuidstructure>
-		<datecreated>Sun, 29 Sep 2019 17:28:42 GMT</datecreated>
-		<flags>0</flags>
-		<properties/>
-		<relations/>
-		<accesscontrol/>
-	</file>
-	<file>
-		<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/classes/com</destination>
-		<type>folder</type>
-		<uuidstructure>9504d6cc-e2de-11e9-8ed0-04922659cd14</uuidstructure>
-		<datecreated>Sun, 29 Sep 2019 17:28:42 GMT</datecreated>
-		<flags>0</flags>
-		<properties/>
-		<relations/>
-		<accesscontrol/>
-	</file>
-	<file>
-		<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/classes/com/fantrip</destination>
-		<type>folder</type>
-		<uuidstructure>95060f4e-e2de-11e9-8ed0-04922659cd14</uuidstructure>
-		<datecreated>Sun, 29 Sep 2019 17:28:42 GMT</datecreated>
-		<flags>0</flags>
-		<properties/>
-		<relations/>
-		<accesscontrol/>
-	</file>
-	<file>
-	      <destination>system/modules/com.fantrip.opencms.clickfantrip.elements/formatters</destination>
-	      <type>folder</type>
-	      <uuidstructure>45c16052-11b7-11db-91cd-fdbae484bac9</uuidstructure>
-	      <datelastmodified>Fri, 20 Sep 2019 10:36:34 GMT+02:00</datelastmodified>
-	      <datecreated>Mon, 27 Jun 2018 08:00:00 GMT</datecreated>
-	      <flags>0</flags>
-	      <properties/>
-	      <relations/>
-	      <accesscontrol/>
-    </file>
-	<file>
-		<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/classes/com/fantrip/opencms</destination>
-		<type>folder</type>
-		<uuidstructure>9506f9b0-e2de-11e9-8ed0-04922659cd14</uuidstructure>
-		<datecreated>Sun, 29 Sep 2019 17:28:42 GMT</datecreated>
-		<flags>0</flags>
-		<properties/>
-		<relations/>
-		<accesscontrol/>
-	</file>
-	<file>
-		<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/classes/com/fantrip/opencms/elements</destination>
-		<type>folder</type>
-		<uuidstructure>95080b22-e2de-11e9-8ed0-04922659cd14</uuidstructure>
-		<datecreated>Sun, 29 Sep 2019 17:28:42 GMT</datecreated>
-		<flags>0</flags>
-		<properties/>
-		<relations/>
-		<accesscontrol/>
-	</file>
-	<file>
-		<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/i18n</destination>
-		<type>folder</type>
-		<uuidstructure>94febc41-e2de-11e9-8ed0-04922659cd14</uuidstructure>
-		<datecreated>Sun, 29 Sep 2019 17:28:42 GMT</datecreated>
-		<flags>0</flags>
-		<properties/>
-		<relations/>
-		<accesscontrol/>
-	</file>
-	<file>
-		<source>system/modules/com.fantrip.opencms.clickfantrip.elements/i18n/com.fantrip.opencms.elements.messages_en</source>
-		<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/i18n/com.fantrip.opencms.elements.messages_en</destination>
-		<type>propertyvfsbundle</type>
-		<uuidstructure>94fff4c3-e2de-11e9-8ed0-04922659cd14</uuidstructure>
-		<uuidresource>94fff4c4-e2de-11e9-8ed0-04922659cd14</uuidresource>
-		<datecreated>Sun, 29 Sep 2019 17:28:42 GMT</datecreated>
-		<flags>0</flags>
-		<properties>
-			<property>
-				<name>search.exclude</name>
-				<value><![CDATA[all]]></value>
-			</property>
-		</properties>
-		<relations/>
-		<accesscontrol/>
-	</file>
-	<file>
-		<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/lib</destination>
-		<type>folder</type>
-		<uuidstructure>9502daf8-e2de-11e9-8ed0-04922659cd14</uuidstructure>
-		<datecreated>Sun, 29 Sep 2019 17:28:42 GMT</datecreated>
-		<flags>0</flags>
-		<properties/>
-		<relations/>
-		<accesscontrol/>
-	</file>
-	<file>
-		<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/schemas</destination>
-		<type>folder</type>
-		<uuidstructure>9501c986-e2de-11e9-8ed0-04922659cd14</uuidstructure>
-		<datecreated>Sun, 29 Sep 2019 17:28:42 GMT</datecreated>
-		<flags>0</flags>
-		<properties/>
-		<relations/>
-		<accesscontrol/>
-	</file>
-	<file>
-	      <destination>system/workplace</destination>
-	      <type>folder</type>
-	      <uuidstructure>825afce2-11b7-11db-91cd-fdbae480bac9</uuidstructure>
-	      <datelastmodified>Fri, 20 Sep 2019 10:36:34 GMT+02:00</datelastmodified>
-	      <datecreated>Mon, 27 Jun 2005 08:00:00 GMT</datecreated>
-	      <flags>0</flags>
-	      <properties>
-		        <property>
-			          <name>content-encoding</name>
-			          <value>UTF-8</value>
-		        </property>
-		        <property>
-			          <name>export</name>
-			          <value>false</value>
-		        </property>
-		        <property>
-			          <name>login-form</name>
-			          <value>/system/login/index.html</value>
-		        </property>
-	      </properties>
-    </file>
-	<file>
-	      <destination>system/workplace/resources</destination>
-	      <type>folder</type>
-	      <uuidstructure>82c16052-11b7-11db-91cd-fdbae480bac9</uuidstructure>
-	      <datelastmodified>Fri, 20 Sep 2019 10:36:34 GMT+02:00</datelastmodified>
-	      <datecreated>Mon, 27 Jun 2018 08:00:00 GMT</datecreated>
-	      <flags>0</flags>
-	      <properties/>
-	      <relations/>
-	      <accesscontrol/>
-    </file>
-    <file>
-	      <destination>system/workplace/resources/filetypes</destination>
-	      <uuidstructure>83ca1dcc-11b7-11db-91cd-fdbae480bac9</uuidstructure>
-	      <datelastmodified>Fri, 20 Sep 2019 10:36:34 GMT+02:00</datelastmodified>
-	      <datecreated>Mon, 27 Jun 2005 08:00:00 GMT</datecreated>
-	      <flags>0</flags>
-	      <properties/>
-	      <relations/>
-	      <accesscontrol/>
-    </file>
-    <file>
-	      <source>system/modules/com.fantrip.opencms.clickfantrip.elements/schemas/destacado.xsd</source>
-	      <destination>system/modules/com.fantrip.opencms.clickfantrip.elements/schemas/destacado.xsd</destination>
-	      <type>plain</type>
-	      <uuidstructure>d332bce5-2e14-11e6-b920-54ee758148f9</uuidstructure>
-	      <uuidresource>d332bce6-2e14-11e6-b920-54ee758148f9</uuidresource>
-	      <datelastmodified>Fri, 20 Sep 2019 10:36:34 GMT+02:00</datelastmodified>
-	      <datecreated>Thu, 09 Jun 2018 07:36:05 GMT</datecreated>
-	      <flags>0</flags>
-	      <properties>
-		        <property>
-			          <name>Title</name>
-			          <value>Schema file for mood publication</value>
-		        </property>
-	      </properties>
-	      <relations/>
-	      <accesscontrol/>
-    </file>
-    <file>
-		<source>system/modules/com.fantrip.opencms.clickfantrip.elements/formatters/destacado.xml</source>
-		<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/formatters/destacado.xml</destination>
-		<type>formatter_config</type>
-		<uuidstructure>72d7e315-73d1-11e8-89e6-54ee758148f9</uuidstructure>
-		<uuidresource>74d7e316-73d2-11e8-89e6-54ee758148f9</uuidresource>
-		<datelastmodified>Fri, 20 Sep 2019 10:36:34 GMT+02:00</datelastmodified>
-		<datecreated>Tue, 19 Jun 2018 15:00:04 GMT</datecreated>
-		<flags>0</flags>
-		<properties>
-			<property>
-				<name>Title</name>
-				<value>Sample formatter for Publicidad destacada</value>
-			</property>
-		</properties>
-		<relations/>
-		<accesscontrol/>
+		<class/>
+		<site>/</site>
+		<export-mode name="reduced"/>
+		<description><![CDATA[Clases java, formatters ...]]></description>
+		<version>0</version>
+		<authorname/>
+		<authoremail/>
+		<datecreated/>
+		<userinstalled/>
+		<dateinstalled/>
+		<dependencies/>
+		<exportpoints>
+			<exportpoint uri="/system/modules/com.fantrip.opencms.clickfantrip.elements/lib/" destination="WEB-INF/lib/"/>
+			<exportpoint uri="/system/modules/com.fantrip.opencms.clickfantrip.elements/classes/" destination="WEB-INF/classes/"/>
+		</exportpoints>
+		<resources>
+			<resource uri="/system/modules/com.fantrip.opencms.clickfantrip.elements/"/>
+		</resources>
+		<excluderesources/>
+		<parameters/>
+		<resourcetypes>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="destacado" id="72298">
+				<param name="schema">/system/modules/com.fantrip.opencms.clickfantrip.elements/schemas/destacado.xsd</param>
+			</type>
+		</resourcetypes>
+		<explorertypes>
+			<explorertype name="destacado" key="type.destacado.name" icon="destacado.png" bigicon="destacado_big.png" reference="xmlcontent">
+				<newresource creatable="true" order="10" autosetnavigation="false" autosettitle="false" info="type.destacado.description" key="type.destacado.title"/>
+			</explorertype>
+		</explorertypes>
+	</module>
+	<files>
+		<file>
+			<destination>system</destination>
+			<type>folder</type>
+			<properties/>
 		</file>
-    <file>
-		<source>system/modules/com.fantrip.opencms.clickfantrip.elements/formatters/destacado.jsp</source>
-		<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/formatters/destacado.jsp</destination>
-		<type>jsp</type>
-		<uuidstructure>9f4071a3-e961-11e9-a6bd-04922659cd14</uuidstructure>
-		<uuidresource>9f4071a4-e962-11e9-a6bd-04922659cd14</uuidresource>
-		<datecreated>Tue, 08 Oct 2019 00:20:56 GMT</datecreated>
-		<flags>0</flags>
-		<properties>
-			<property type="shared">
-				<name>export</name>
-				<value><![CDATA[false]]></value>
+		<file>
+			<destination>system/modules</destination>
+			<type>folder</type>
+			<properties/>
+		</file>
+		<file>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.elements</destination>
+			<type>folder</type>
+			<uuidstructure>94e9fbba-e2de-11e9-8ed0-04922659cd14</uuidstructure>
+			<datecreated>Sun, 29 Sep 2019 17:28:42 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.fantrip.opencms.clickfantrip.elements/.config</source>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/.config</destination>
+			<type>module_config</type>
+			<uuidstructure>94fb60dc-e2de-11e9-8ed0-04922659cd14</uuidstructure>
+			<uuidresource>94fb60dd-e2de-11e9-8ed0-04922659cd14</uuidresource>
+			<datecreated>Sun, 29 Sep 2019 17:28:42 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
 				</property>
 			</properties>
 			<relations/>
 			<accesscontrol/>
 		</file>
-	
-	    <file>
-		      <source>system/workplace/resources/filetypes/destacado_big.png</source>
-		      <destination>system/workplace/resources/filetypes/destacado_big.png</destination>
-		      <type>image</type>
-		      <datelastmodified>Fri, 20 Sep 2019 10:36:34 GMT+02:00</datelastmodified>
-		      <datecreated>Wed, 23 Aug 2019 10:40:58 GMT</datecreated>
-		      <flags>0</flags>
-		      <properties>
-			        <property>
-				          <name>Title</name>
-				          <value>sample-icon_big</value>
-			        </property>
-			        <property type="shared">
-				          <name>image.size</name>
-				          <value>w:34,h:34</value>
-			        </property>
-		      </properties>
-		      <relations/>
-		      <accesscontrol/>
-	    </file>
-	    <file>
-		 <source>system/workplace/resources/filetypes/destacado.png</source>
-		      <destination>system/workplace/resources/filetypes/destacado.png</destination>
-		      <type>image</type>
-		      <datelastmodified>Fri, 20 Sep 2019 10:36:34 GMT+02:00</datelastmodified>
-		      <datecreated>Wed, 23 Aug 2019 10:40:58 GMT</datecreated>
-		      <flags>0</flags>
-		      <properties>
-			        <property>
-				          <name>Title</name>
-				          <value>sample-icon</value>
-			        </property>
-			        <property type="shared">
-				          <name>image.size</name>
-				          <value>w:24,h:24</value>
-			        </property>
-		      </properties>
-		      <relations/>
-		      <accesscontrol/>
-	    </file>
+		<file>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/classes</destination>
+			<type>folder</type>
+			<uuidstructure>9503ec6a-e2de-11e9-8ed0-04922659cd14</uuidstructure>
+			<datecreated>Sun, 29 Sep 2019 17:28:42 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/classes/com</destination>
+			<type>folder</type>
+			<uuidstructure>9504d6cc-e2de-11e9-8ed0-04922659cd14</uuidstructure>
+			<datecreated>Sun, 29 Sep 2019 17:28:42 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/classes/com/fantrip</destination>
+			<type>folder</type>
+			<uuidstructure>95060f4e-e2de-11e9-8ed0-04922659cd14</uuidstructure>
+			<datecreated>Sun, 29 Sep 2019 17:28:42 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/classes/com/fantrip/opencms</destination>
+			<type>folder</type>
+			<uuidstructure>9506f9b0-e2de-11e9-8ed0-04922659cd14</uuidstructure>
+			<datecreated>Sun, 29 Sep 2019 17:28:42 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/classes/com/fantrip/opencms/elements</destination>
+			<type>folder</type>
+			<uuidstructure>95080b22-e2de-11e9-8ed0-04922659cd14</uuidstructure>
+			<datecreated>Sun, 29 Sep 2019 17:28:42 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/formatters</destination>
+			<type>folder</type>
+			<uuidstructure>45c16052-11b7-11db-91cd-fdbae484bac9</uuidstructure>
+			<datecreated>Wed, 27 Jun 2018 08:00:00 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.fantrip.opencms.clickfantrip.elements/formatters/destacado.jsp</source>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/formatters/destacado.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>e1e1143d-0996-11ea-b731-04922659cd14</uuidstructure>
+			<uuidresource>e1e1143e-0996-11ea-b731-04922659cd14</uuidresource>
+			<datecreated>Mon, 18 Nov 2019 00:03:42 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Sample formatter for new resource types]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.fantrip.opencms.clickfantrip.elements/formatters/destacado.xml</source>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/formatters/destacado.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>e1ec85f4-0996-11ea-b731-04922659cd14</uuidstructure>
+			<uuidresource>e1ec85f5-0996-11ea-b731-04922659cd14</uuidresource>
+			<datecreated>Mon, 18 Nov 2019 00:03:42 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/i18n</destination>
+			<type>folder</type>
+			<uuidstructure>94febc41-e2de-11e9-8ed0-04922659cd14</uuidstructure>
+			<datecreated>Sun, 29 Sep 2019 17:28:42 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.fantrip.opencms.clickfantrip.elements/i18n/com.fantrip.opencms.elements.messages_en</source>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/i18n/com.fantrip.opencms.elements.messages_en</destination>
+			<type>propertyvfsbundle</type>
+			<uuidstructure>94fff4c3-e2de-11e9-8ed0-04922659cd14</uuidstructure>
+			<uuidresource>94fff4c4-e2de-11e9-8ed0-04922659cd14</uuidresource>
+			<datecreated>Sun, 29 Sep 2019 17:28:42 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>content-encoding</name>
+					<value><![CDATA[UTF-8]]></value>
+				</property>
+				<property type="shared">
+					<name>content-encoding</name>
+					<value><![CDATA[UTF-8]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/lib</destination>
+			<type>folder</type>
+			<uuidstructure>9502daf8-e2de-11e9-8ed0-04922659cd14</uuidstructure>
+			<datecreated>Sun, 29 Sep 2019 17:28:42 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/schemas</destination>
+			<type>folder</type>
+			<uuidstructure>9501c986-e2de-11e9-8ed0-04922659cd14</uuidstructure>
+			<datecreated>Sun, 29 Sep 2019 17:28:42 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.fantrip.opencms.clickfantrip.elements/schemas/destacado.xsd</source>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/schemas/destacado.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>e1e4bdc1-0996-11ea-b731-04922659cd14</uuidstructure>
+			<uuidresource>e1e4bdc2-0996-11ea-b731-04922659cd14</uuidresource>
+			<datecreated>Mon, 18 Nov 2019 00:03:42 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Sample schema for new resource types]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
 	</files>
 </export>

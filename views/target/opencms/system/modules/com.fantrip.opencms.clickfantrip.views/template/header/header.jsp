@@ -25,7 +25,7 @@
 	<nav class="navbar navbar-expand-lg navbar-light">
 		<div class="container">
 			<a class="navbar-brand" href="https://clickfantrip.com">
-				<img src=".content/imatges/FANTRIP-Brand.gif" alt="FanTrip" />
+				<img src="<cms:link>/.content/imatges/FANTRIP-Brand.gif</cms:link>" alt="FanTrip" />
 				<span class="sr-only">FanTrip</span>
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,12 +61,12 @@
 					</li> -->
 					<li class="nav-item nav-shop">
 						<a class="navbar-shop" href="https://clickfantrip.com">
-							<img src=".content/imatges/shop_icon.png" alt="shop-icon" />
+							<img src="<cms:link>/.content/imatges/shop_icon.png</cms:link>" alt="shop-icon" />
 						</a>
 					</li>
 					<li class="nav-item nav-user_login">
 						<a class="navbar-user-login" href="https://clickfantrip.com">
-							<img src=".content/imatges/user_icon.png" alt="user-icon" />
+							<img src="<cms:link>/.content/imatges/user_icon.png</cms:link>" alt="user-icon" />
 						</a>
 					</li>
 					<!-- 

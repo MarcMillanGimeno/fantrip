@@ -28,7 +28,7 @@ java.util.List"%>
 		<div class="container-fluid header-container">
 			<div class="row">
 				<div class="header-container-picture col-md-12">
-					<img src=".content/imatges/header-selector/vikings-temporada-6.jpg" alt="placeholder 960" class="img-responsive">
+					<img src="<cms:link>/.content/imatges/header-selector/vikings-temporada-6.jpg</cms:link>" alt="placeholder 960" class="img-responsive">
 				</div>
 			</div>
 			<div class="header_content_subtitle row">
@@ -145,25 +145,25 @@ java.util.List"%>
 			<div class=" row">
 				<div class="info-header_list justify-content-center col-sm-3 col-lg-3 col-md-3">
 					<a class="header-icon-info" href="">
-						<img class="icon-1-header-footer" src=".content/imatges/header-selector/icon-plane.png" alt="Vuelos" />
+						<img class="icon-1-header-footer" src="<cms:link>/.content/imatges/header-selector/icon-plane.png</cms:link>" alt="Vuelos" />
 						<span class="text-header-footer">Vuelos a todos los destinos</span>
 					</a>
 				</div>
 				<div class="info-header_list justify-content-center col-sm-3 col-lg-3 col-md-3">
 					<a class="header-icon-info" href="">
-						<img class="icon-2-header-footer" src=".content/imatges/header-selector/icon-apartment.png" alt="Alojamientos" />
+						<img class="icon-2-header-footer" src="<cms:link>/.content/imatges/header-selector/icon-apartment.png</cms:link>" alt="Alojamientos" />
 						<span class="text-header-footer">Los mejores alojamientos</span>
 					</a>
 				</div>
 				<div class="info-header_list justify-content-center col-sm-3 col-lg-3 col-md-3">
 					<a class="header-icon-info shop-icon-header" href="">
-						<img class="icon-3-header-footer" src=".content/imatges/header-selector/iconshop.png" alt="Vuelos" />
+						<img class="icon-3-header-footer" src="<cms:link>/.content/imatges/header-selector/iconshop.png</cms:link>" alt="Vuelos" />
 						<span class="text-header-footer">Todos los regalos fanáticos</span>
 					</a>
 				</div>
 				<div class="info-header_list justify-content-center col-sm-3 col-lg-3 col-md-3">
 					<a class="header-icon-info" href="">
-						<img class="icon-4-header-footer" src=".content/imatges/header-selector/icon-rent-car.png" alt="Vuelos" />
+						<img class="icon-4-header-footer" src="<cms:link>/.content/imatges/header-selector/icon-rent-car.png</cms:link>" alt="Vuelos" />
 						<span class="text-header-footer">Alquiler de coche</span>
 					</a>
 				</div>
