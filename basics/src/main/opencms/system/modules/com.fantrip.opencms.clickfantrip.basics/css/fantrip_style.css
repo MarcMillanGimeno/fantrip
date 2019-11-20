@@ -28,7 +28,7 @@ a#navbarDropdownMenuLink {
 }
 li.nav-item.nav-shop {
 	padding-top: 5px;
-	margin-left: 200px;
+	margin-left: 280px;
 }
 .navbar-shop img {
 	width: 20px;
@@ -669,6 +669,33 @@ a.link-item-footer:hover {
 	width: 148px;
 	margin-top: 46px;
 }
+.img-item-scene {
+	max-width: 262px !important;
+	max-height: 400px;
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+.img-item-scene:hover{
+	opacity: 0.5;
+}
+
+.row-file-1-scenes{
+	margin-bottom: 25px;
+}
+.section-guides-top{
+	margin-top: 20px;
+}
+.row-file-2-scenes{
+	margin-bottom: 40px;
+}
+.container-scenes-section {
+	text-align: -webkit-center;
+}
+
 @media (min-width: 992px){
 	.container {
 		width: 970px;
@@ -743,6 +770,9 @@ a.link-item-footer:hover {
 	}
 	.guides-container-carrusel-items{
 		margin-top: 40px !important;
+	}
+	.item-1-scene-button, .item-2-scene-button, .item-5-scene-button, .item-6-scene-button{
+		margin-bottom: 25px;
 	}
 
 }
