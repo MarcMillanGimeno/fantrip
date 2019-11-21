@@ -315,6 +315,54 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.views/template/breadcrumb</destination>
+			<type>folder</type>
+			<uuidstructure>fd69bbde-0be6-11ea-bafa-04922659cd14</uuidstructure>
+			<datecreated>Wed, 20 Nov 2019 22:42:11 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.fantrip.opencms.clickfantrip.views/template/breadcrumb/nav-breadcrumb.jsp</source>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.views/template/breadcrumb/nav-breadcrumb.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>1d545b94-0be7-11ea-bafa-04922659cd14</uuidstructure>
+			<uuidresource>1d545b95-0be7-11ea-bafa-04922659cd14</uuidresource>
+			<datecreated>Wed, 20 Nov 2019 22:43:04 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.fantrip.opencms.clickfantrip.views/template/breadcrumb/navigation-main.xml</source>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.views/template/breadcrumb/navigation-main.xml</destination>
+			<type>function_config</type>
+			<uuidstructure>08805390-0be7-11ea-bafa-04922659cd14</uuidstructure>
+			<uuidresource>08805391-0be7-11ea-bafa-04922659cd14</uuidresource>
+			<datecreated>Wed, 20 Nov 2019 22:42:29 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>system/modules/com.fantrip.opencms.clickfantrip.views/template/escenarios-template</destination>
 			<type>folder</type>
 			<uuidstructure>2e5bd8eb-0a64-11ea-8e7a-04922659cd14</uuidstructure>
