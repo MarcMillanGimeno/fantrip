@@ -19,21 +19,25 @@
 			<div class="col-md-6 col-lg-3 flex-col item-1-scene-button">
 				<a class="img-scene-choose" href="">
 					<img class="img-item-scene" src="<cms:link>/.content/imatges/img-scens-buttons/harry-potter-scene.png</cms:link>" alt="London Scene Harry Potter">
+					<div class="centered-title-scene-bt">Londres</div>
 				</a>
 			</div>
 			<div class="col-md-6 col-lg-3 flex-col item-2-scene-button">
 				<a class="img-scene-choose" href="">
 					<img class="img-item-scene" src="<cms:link>/.content/imatges/img-scens-buttons/got-Irlanda-del-norte.png</cms:link>" alt="Irlanda Scene GoT">
+					<div class="centered-title-scene-bt">Irlanda del Norte</div>
 				</a>
 			</div>
 			<div class="col-md-6 col-lg-3 flex-col item-3-scene-button">
 				<a class="img-scene-choose" href="">
 					<img class="img-item-scene" src="<cms:link>/.content/imatges/img-scens-buttons/scene-vikings.png</cms:link>" alt="Irlanda Scene Vikings">
+					<div class="centered-title-scene-bt">Irlanda</div>
 				</a>
 			</div>
 			<div class="col-md-6 col-lg-3 flex-col item-4-scene-button">
 				<a class="img-scene-choose" href="">
 					<img class="img-item-scene" src="<cms:link>/.content/imatges/img-scens-buttons/peaky-blinders-scene.png</cms:link>" alt="Irlanda Scene Vikings">
+					<div class="centered-title-scene-bt">Birminghan</div>
 				</a>
 			</div>
 		</div>
@@ -41,16 +45,19 @@
 			<div class="col-md-6 col-lg-3 flex-col item-5-scene-button">
 				<a class="img-scene-choose" href="">
 					<img class="img-item-scene" src="<cms:link>/.content/imatges/img-scens-buttons/dubrovnik-got-scene.png</cms:link>" alt="Dubrovnik Scene GoT">
+					<div class="centered-title-scene-bt">Dubrovnik</div>
 				</a>
 			</div>
 			<div class="col-md-6 col-lg-3 flex-col item-6-scene-button">
 				<a class="img-scene-choose" href="">
 					<img class="img-item-scene" src="<cms:link>/.content/imatges/img-scens-buttons/star-wars-scene.png</cms:link>" alt="Capadoccia Star Wars">
+					<div class="centered-title-scene-bt">Capadoccia</div>
 				</a>
 			</div>
 			<div class="col-md-6 col-lg-3 flex-col item-7-scene-button">
 				<a class="img-scene-choose" href="">
 					<img class="img-item-scene" src="<cms:link>/.content/imatges/img-scens-buttons/breaking-bad-scene.png</cms:link>" alt="Alburquerque Scene Breaking Bad">
+					<div class="centered-title-scene-bt">Albuquerque</div>
 				</a>
 			</div>
 			<div class="col-md-6 col-lg-3 flex-col item-8-scene-button">
