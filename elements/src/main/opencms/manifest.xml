@@ -32,10 +32,16 @@
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="destacado" id="72298">
 				<param name="schema">/system/modules/com.fantrip.opencms.clickfantrip.elements/schemas/destacado.xsd</param>
 			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="video-FT" id="66935">
+				<param name="schema">/system/modules/com.fantrip.opencms.clickfantrip.elements/schemas/video-FT.xsd</param>
+			</type>
 		</resourcetypes>
 		<explorertypes>
 			<explorertype name="destacado" key="type.destacado.name" icon="destacado.png" bigicon="destacado_big.png" reference="xmlcontent">
 				<newresource creatable="true" order="10" autosetnavigation="false" autosettitle="false" info="type.destacado.description" key="type.destacado.title"/>
+			</explorertype>
+			<explorertype name="video-FT" key="type.video-FT.name" icon="video-yt-FT-big.png" bigicon="video-yt-FT.png" reference="xmlcontent">
+				<newresource creatable="true" order="10" autosetnavigation="false" autosettitle="false" info="type.video-FT.description" key="type.video-FT.title"/>
 			</explorertype>
 		</explorertypes>
 	</module>
@@ -192,6 +198,52 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.fantrip.opencms.clickfantrip.elements/formatters/video-FT.jsp</source>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/formatters/video-FT.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>560e03d5-0cbe-11ea-83bb-04922659cd14</uuidstructure>
+			<uuidresource>560e03d6-0cbe-11ea-83bb-04922659cd14</uuidresource>
+			<datecreated>Fri, 22 Nov 2019 00:23:41 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Sample formatter for new resource types]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.fantrip.opencms.clickfantrip.elements/formatters/video-FT.xml</source>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/formatters/video-FT.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>561752ac-0cbe-11ea-83bb-04922659cd14</uuidstructure>
+			<uuidresource>561752ad-0cbe-11ea-83bb-04922659cd14</uuidresource>
+			<datecreated>Fri, 22 Nov 2019 00:23:41 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/i18n</destination>
 			<type>folder</type>
 			<uuidstructure>94febc41-e2de-11e9-8ed0-04922659cd14</uuidstructure>
@@ -253,6 +305,23 @@
 			<uuidstructure>e1e4bdc1-0996-11ea-b731-04922659cd14</uuidstructure>
 			<uuidresource>e1e4bdc2-0996-11ea-b731-04922659cd14</uuidresource>
 			<datecreated>Mon, 18 Nov 2019 00:03:42 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Sample schema for new resource types]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.fantrip.opencms.clickfantrip.elements/schemas/video-FT.xsd</source>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/schemas/video-FT.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>5614ba99-0cbe-11ea-83bb-04922659cd14</uuidstructure>
+			<uuidresource>5614ba9a-0cbe-11ea-83bb-04922659cd14</uuidresource>
+			<datecreated>Fri, 22 Nov 2019 00:23:41 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
