@@ -62,7 +62,16 @@
 			</div>
 			<div class="col-md-6 col-lg-3 flex-col item-8-scene-button">
 				<a class="img-scene-choose" href="">
-					<img class="img-item-scene" src="<cms:link>/.content/imatges/img-scens-buttons/hobbiton-scene.png</cms:link>" alt="Hobbitone TLOTR">
+					<img class="img-item-scene blocked-scene" src="<cms:link>/.content/imatges/img-scens-buttons/hobbiton-scene.png</cms:link>" alt="Hobbitone TLOTR">
+					
+					<div id="text" class="advice-soon">
+						<h3>Pró<span id="offset">x</span>imamente</h3>
+					</div>
+					
+					<div id="text" class="advice-soon-click-here">
+						<h3>Click <span id="offset">aquí</span> para votar por la próxima guía</h3>
+					</div>
+					
 				</a>
 			</div>
 		</div>
