@@ -695,6 +695,9 @@ a.link-item-footer:hover {
 .container-scenes-section {
 	text-align: -webkit-center;
 }
+.container-scenes-section{
+	margin-bottom: 60px;
+}
 .centered-title-scene-bt{
 	position: absolute;
 	left: 50%;
@@ -722,6 +725,9 @@ a.link-item-footer:hover {
 }
 .breadcrumb a:hover{
 	text-decoration: none;
+}
+.video-container-simple{
+	margin-bottom: 80px;
 }
 @media (min-width: 992px){
 	.container {

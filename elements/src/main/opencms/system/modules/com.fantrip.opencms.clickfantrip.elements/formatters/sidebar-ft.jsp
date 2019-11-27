@@ -5,13 +5,17 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 
 <cms:formatter var="content" val="value">
-  <div class="video-container-simple">
-  	<h3>
-		${value.Title}
-	</h3>
-    <iframe width="803" height="450" src="https://www.youtube.com/embed/${value.idYoutubeLink}"></iframe>
-	<p>
-		${value.Text}
-	</p>
+  <div>
+    <div style="width:200px;float:right">
+      <img style="width:100%" src="${value.Image.toImage}"/>
+    </div>
+    <div>
+      <h2>${value.Title}</h2>
+      <p>${value.Text}</p>
+    </div>
+    <div>
+      <a href="<cms:link>${value.LinkURI}</cms:link>">Link</a>
+    </div>
+    <div style="clear:right;"></div>
   </div>
 </cms:formatter>
