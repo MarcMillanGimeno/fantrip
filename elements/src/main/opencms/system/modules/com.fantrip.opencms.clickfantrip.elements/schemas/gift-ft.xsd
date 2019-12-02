@@ -1,0 +1,36 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+
+	<xsd:element name="Gift-FantripData" type="OpenCmsGift-FantripData"/>
+
+	<xsd:complexType name="OpenCmsGift-FantripData">
+		<xsd:sequence>
+			<xsd:element name="Gift-Fantrip" type="OpenCmsGift-Fantrip" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsGift-Fantrip">
+		<xsd:sequence>
+			<xsd:element name="Title" type="OpenCmsString" />
+			<xsd:element name="Text" type="OpenCmsHtml" />
+			<xsd:element name="Preu" type="OpenCmsString" />
+			<xsd:element name="Image" type="OpenCmsVfsFile" />
+            <xsd:element name="UrlName" type="OpenCmsVarLink" />
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+		    <resourcebundles>
+                <propertybundle name="com.fantrip.opencms.elements.messages" />
+            </resourcebundles>
+			<validationrules>
+				<rule element="Preu" regex="([0-9]++)?(.[0-9]{1})?([0-9]{1})?" message="El valor a introduir ha de ser un número"/>
+				<rule element="UrlName" regex="[^äëïöü\.]*" message="La url no pot contenir punts o dièresi" />
+		    </validationrules>
+		</xsd:appinfo>
+	</xsd:annotation>
+
+</xsd:schema>
