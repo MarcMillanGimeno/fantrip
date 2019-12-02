@@ -4,12 +4,12 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 
-<cms:formatter var="content" val="value">
-	<c:set var="isAvailableXL" value="${value.VisibleXL.toString == 'true'}"/>
-	<c:set var="isAvailableL" value="${value.VisibleL.toString == 'true'}"/>
-	<c:set var="isAvailableM" value="${value.VisibleM.toString == 'true'}"/>
-	<c:set var="isAvailableS" value="${value.VisibleS.toString == 'true'}"/>
-	<c:set var="isAvailableXS" value="${value.VisibleXS.toString == 'true'}"/>
+<cms:formatter var="content">
+	<c:set var="isAvailableXL" value="${content.value.VisibleXL.toString == 'true'}"/>
+	<c:set var="isAvailableL" value="${content.value.VisibleL.toString == 'true'}"/>
+	<c:set var="isAvailableM" value="${content.value.VisibleM.toString == 'true'}"/>
+	<c:set var="isAvailableS" value="${content.value.VisibleS.toString == 'true'}"/>
+	<c:set var="isAvailableXS" value="${content.value.VisibleXS.toString == 'true'}"/>
 
 	<%
 	Boolean displayXL = (Boolean)pageContext.getAttribute("isAvailableXL");
@@ -24,15 +24,23 @@ Boolean displayXS = (Boolean)pageContext.getAttribute("isAvailableXS");
 if(displayXS != null && displayXS != true){ displayXS=false;}
 %>
 
+	<c:set var="id-banner-ft" value="${content.id}" />
+
+	<%
+	String id_banner = (String)pageContext.getAttribute("id-banner-ft").toString();
+%>
+	<!-- yijaaaaaaa : <%=id_banner%>-->
+
 	<div>
 		<div>
-			<c:if test="${value.Image.exists}">
-				<img class="add-banner-simple <%if(displayXL){%> add_xl<%}%>
+			<c:if test="${content.value.Image.exists}">
+				<img	id="add-banner-simple<%=id_banner%>"
+					 class="<%if(displayXL){%> add_xl<%}%>
 							<%if(displayL){%> add_l<%}%>
 							<%if(displayM){%> add_m<%}%>
 							<%if(displayS){%> add_s<%}%>
-							<%if(displayXS){%> add_xs<%}%>"
-					 style="width:100%" src="${value.Image.toImage}"/>
+							<%if(displayXS){%> add_xs<%}%> bannerSimpleAdd"
+					 style="width:100%;" src="${content.value.Image.toImage}"/>
 			</c:if>
 		</div>
 		<div>
@@ -41,40 +49,39 @@ if(displayXS != null && displayXS != true){ displayXS=false;}
 		</div>
 		<div style="clear:right;"></div>
 	</div>
+
+
+	<script type="text/javascript">
+		function changeAddBySize() {
+
+			if(window.innerWidth >= 1200){
+				checkAdsBySize("xl");
+			}else if(window.innerWidth >= 991 && window.innerWidth < 1200){
+				checkAdsBySize("l");
+			}else if(window.innerWidth >= 768 && window.innerWidth < 991){
+				checkAdsBySize("m");
+			}else if(window.innerWidth >= 500 && window.innerWidth < 768){
+				checkAdsBySize("s");
+			}else{
+				checkAdsBySize("xs");
+			}
+		}
+		function checkAdsBySize(sizeScreen) {
+			var bannerAdds = document.getElementsByClassName("bannerSimpleAdd");
+
+			for(var iBanner = 0; iBanner < bannerAdds.length; iBanner++){
+				if(bannerAdds.item(iBanner).classList.contains("add_"+sizeScreen)){
+					bannerAdds.item(iBanner).style.display = 'block';
+				}else{
+					bannerAdds.item(iBanner).style.display = 'none';
+				}
+			}
+		}
+		changeAddBySize(); // call init finction for the first time
+		window.addEventListener("resize", changeAddBySize, false);
+	</script>
+
 </cms:formatter>
-
-<script type="text/javascript">
-	function changeAddBySize() {
-
-		/*if(screen.width >= 1200){
-			checkAdsBySize("xl");
-		}else if(screen.width >= 991 && screen.width == 1200){
-			checkAdsBySize("l");
-		}else if(screen.width >= 768 && screen.width == 991){
-			checkAdsBySize("m");
-		}else{
-			checkAdsBySize("s");
-		}*/
-	}
-	function checkAdsBySize(sizeScreen) {
-
-		/*var banner_simple_add = $(".add-banner-simple");
-		console.log("size: " + sizeScreen);
-		console.log("screen.width: " + screen.width);
-		
-		if( banner_simple_add.hasClass(sizeScreen) ){
-			banner_simple_add.css('display','block');
-		}else{
-			banner_simple_add.css('display','none');
-		}*/
-	}
-	/*changeAddBySize(); // call init finction for the first time
-    window.addEventListener("resize", changeAddBySize, false);*/
-</script>
-
-
-
-
 
 
 

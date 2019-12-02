@@ -1,7 +1,9 @@
 @charset "ISO-8859-1";
 
+@import url("../fonts/Montserrat.css");
+
 body {
-	font-family: Montserrat !important;
+	font-family: 'Montserrat', sans-serif;
 }
 
 /*Menu header*/
@@ -729,6 +731,19 @@ a.link-item-footer:hover {
 .video-container-simple{
 	margin-bottom: 80px;
 }
+.containter-affiliates {
+	top: -16px !important;
+	position: relative !important;
+}
+.containter-affiliates{
+	margin-bottom: 40px;
+}
+@media (min-width: 1200px){
+	.video-container-simple iframe {
+		width: 803px  !important;
+	}
+}
+
 @media (min-width: 992px){
 	.container {
 		width: 970px;
@@ -738,11 +753,13 @@ a.link-item-footer:hover {
 	.container {
 		width: 750px;
 	}
+
 }
 @media (max-width: 1200px) {
 	.nav-shop  {
 		margin-left: 100px !important;
 	}
+
 }
 @media (max-width: 1199px) {
 	.centered-title-scene-bt{
@@ -815,6 +832,9 @@ a.link-item-footer:hover {
 	.centered-title-scene-bt{
 		width: 260px !important;
 	}
+	.video-container-simple {
+		margin-bottom: 20px !important;
+	}
 }
 @media (max-width: 826px){
 	.publication-popular-container-right{
@@ -853,6 +873,7 @@ a.link-item-footer:hover {
 	.section-info-guides-items, .section-info-guides-item3, .section-info-guides-item4{
 		margin-top: 20px;
 	}
+
 }
 
 @media (max-width: 878px){
@@ -944,6 +965,12 @@ a.link-item-footer:hover {
 	}
 
 }
+@media (min-width: 768px) and (max-width: 1200px){
+	.video-container-simple iframe {
+		width: 670px;
+		height: 386px;
+	}
+}
 @media (min-width: 768px) and (max-width: 991px){
 	.advice-soon {
 		width: 218px !important;
@@ -962,6 +989,21 @@ a.link-item-footer:hover {
 	}
 
 }
+@media (min-width: 560px) and (max-width: 768px){
+	.video-container-simple iframe {
+		width: 500px !important;
+		height: 300px !important;
+	}
+
+}
+@media (min-width: 320px) and (max-width: 560px){
+	.video-container-simple iframe {
+		width: 100% !important;
+		height: 100%;
+		min-height: 280px;
+	}
+}
+
 
 /* EFECTOS FANTRIP */
 .advice-soon{

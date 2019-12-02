@@ -25,7 +25,6 @@ org.opencms.file.CmsResource"%>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	
-	
 	<!-- core CSS -->
 	<c:if test="${not cms.isOnlineProject}">
 		<cms:headincludes type="css" closetags="false" defaults="%(link.weak:/system/modules/com.fantrip.opencms.clickfantrip.basics/css/fantrip_style.css:227ac719-ecdd-11e4-9fbe-04922659cd18)

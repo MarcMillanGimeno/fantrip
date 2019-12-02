@@ -18,26 +18,29 @@
 				<c:if test="${empty navText or fn:contains(navText, '??? NavText')}">
 					<c:set var="navText">${elem.title}</c:set>
 				</c:if>
+				
 				<c:if test="${not status.last}">
+				<c:set var="statusLast" value="${not status.last}" />
+				<%String statusLast = pageContext.getAttribute("statusLast").toString(); %>
+				<!-- statusLast : <%=statusLast%> -->
 					<c:if test="${!empty navText}">
 						<c:set var="linkResource" value="${elem.resourceName}" />
 						<%String link_resource = pageContext.getAttribute("linkResource").toString(); %>
 						<c:set var="navText1">${elem.title}</c:set>
 						<%String link_navText1 = pageContext.getAttribute("navText1").toString(); %>
-						
 						<% if(!"/".equals(link_resource)){ %>
-							 <c:if test="${true}">
-								<a <%if(link_navText1.contains("Fantrip")){%> 
-									href="">Inici
-									<%}else{%>
-									href="<cms:link>${elem.resourceName}</cms:link>index.html">
-									<%}%>
-							</c:if>
+						<c:if test="${true}">
+							<a <%if(link_navText1.contains("Fantrip")){%> 
+								href="">Inici
+								<%}else{%>
+								href="<cms:link>${elem.resourceName}</cms:link>index.html">
+								<%}%>
+								</c:if>
 							<%if(!link_navText1.contains("Fantrip")){%> 
-								${navText}
+							${navText}
 							<%}%>
 							</a> 
-							<!--NO BORRAR EL PUNTO--> · 
+						<!--NO BORRAR EL PUNTO--> · 
 						<%}%>
 					</c:if>
 				</c:if>
@@ -45,14 +48,14 @@
 			</c:forEach>
 
 
-		<cms:navigation type="breadCrumb" startLevel="0" endLevel="0" var="nav" param="true" />
+			<cms:navigation type="breadCrumb" startLevel="0" endLevel="0" var="nav" param="true" />
 
-		<c:forEach items="${nav.items}" var="elem1" varStatus="status1">
-			<c:if test="${!empty navText}">
-				<c:if test="${true}">${navText}</c:if>
-			</c:if>	
-		</c:forEach>
+			<c:forEach items="${nav.items}" var="elem1" varStatus="status1">
+				<c:if test="${!empty navText}">
+					<c:if test="${true}">${navText}</c:if>
+				</c:if>	
+			</c:forEach>
 		</div><!--/container-->
 	</nav><!--/breadcrumbs-->
-<!--=== End Breadcrumbs ===-->
+	<!--=== End Breadcrumbs ===-->
 </div>

@@ -29,7 +29,7 @@
 				</a>
 			</div>
 			<div class="col-md-6 col-lg-3 flex-col item-3-scene-button">
-				<a class="img-scene-choose" href="">
+				<a class="img-scene-choose" href="<cms:link>/es/escenarios/vikingos/</cms:link>">
 					<img class="img-item-scene" src="<cms:link>/.content/imatges/img-scens-buttons/scene-vikings.png</cms:link>" alt="Irlanda Scene Vikings">
 					<div class="centered-title-scene-bt">Irlanda</div>
 				</a>

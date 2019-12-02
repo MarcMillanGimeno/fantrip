@@ -7,11 +7,11 @@
 <cms:formatter var="content" val="value">
   <div class="video-container-simple">
   	<h3>
-		${value.Title}
+	${value.Title}
 	</h3>
     <iframe width="803" height="450" src="https://www.youtube.com/embed/${value.idYoutubeLink}"></iframe>
 	<p>
-		${value.Text}
+	${value.Text}
 	</p>
   </div>
 </cms:formatter>
