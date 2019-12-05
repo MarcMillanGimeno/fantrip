@@ -44,6 +44,9 @@
 			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="widgets-affiliates" id="20354">
 				<param name="schema">/system/modules/com.fantrip.opencms.clickfantrip.elements/schemas/widgets-affiliates.xsd</param>
 			</type>
+			<type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="galeria-regalos" id="83778">
+				<param name="schema">/system/modules/com.fantrip.opencms.clickfantrip.elements/schemas/galeria-regalos.xsd</param>
+			</type>
 		</resourcetypes>
 		<explorertypes>
 			<explorertype name="destacado" key="type.destacado.name" icon="destacado.png" bigicon="destacado_big.png" reference="xmlcontent">
@@ -60,6 +63,9 @@
 			</explorertype>
 			<explorertype name="widgets-affiliates" key="type.widgets-affiliates.name" icon="widgets-affiliates.png" bigicon="widgets-affiliates-big.png" reference="xmlcontent">
 				<newresource creatable="true" order="10" autosetnavigation="false" autosettitle="false" info="type.widgets-affiliates.description" key="type.widgets-affiliates.title"/>
+			</explorertype>
+			<explorertype name="galeria-regalos" key="type.galeria-regalos.name" icon="gift-icon-ft.png" bigicon="gift-icon-ft-big.png" reference="xmlcontent">
+				<newresource creatable="true" order="10" autosetnavigation="false" autosettitle="false" info="type.galeria-regalos.description" key="type.galeria-regalos.title"/>
 			</explorertype>
 		</explorertypes>
 	</module>
@@ -243,6 +249,52 @@
 			<uuidstructure>e1ec85f4-0996-11ea-b731-04922659cd14</uuidstructure>
 			<uuidresource>e1ec85f5-0996-11ea-b731-04922659cd14</uuidresource>
 			<datecreated>Mon, 18 Nov 2019 00:03:42 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>locale</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>locale-available</name>
+					<value><![CDATA[en]]></value>
+				</property>
+				<property>
+					<name>search.exclude</name>
+					<value><![CDATA[all]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.fantrip.opencms.clickfantrip.elements/formatters/galeria-regalos.jsp</source>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/formatters/galeria-regalos.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>99c0aa7f-1493-11ea-85bd-04922659cd14</uuidstructure>
+			<uuidresource>99c0aa80-1493-11ea-85bd-04922659cd14</uuidresource>
+			<datecreated>Sun, 01 Dec 2019 23:37:56 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Sample formatter for new resource types]]></value>
+				</property>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.fantrip.opencms.clickfantrip.elements/formatters/galeria-regalos.xml</source>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/formatters/galeria-regalos.xml</destination>
+			<type>formatter_config</type>
+			<uuidstructure>99cb58e6-1493-11ea-85bd-04922659cd14</uuidstructure>
+			<uuidresource>99cb58e7-1493-11ea-85bd-04922659cd14</uuidresource>
+			<datecreated>Sun, 01 Dec 2019 23:37:56 GMT</datecreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -489,6 +541,23 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/com.fantrip.opencms.clickfantrip.elements/schemas/galeria-regalos.xsd</source>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/schemas/galeria-regalos.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>11e639a4-161b-11ea-aadc-04922659cd14</uuidstructure>
+			<uuidresource>11e639a5-161b-11ea-aadc-04922659cd14</uuidresource>
+			<datecreated>Tue, 03 Dec 2019 22:20:10 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[galeria-regalos]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/com.fantrip.opencms.clickfantrip.elements/schemas/sidebar-ft-element.xsd</source>
 			<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/schemas/sidebar-ft-element.xsd</destination>
 			<type>plain</type>
@@ -551,6 +620,67 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[Sample schema for new resource types]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/schemas/elements</destination>
+			<type>folder</type>
+			<uuidstructure>1827c9aa-161b-11ea-aadc-04922659cd14</uuidstructure>
+			<datecreated>Tue, 03 Dec 2019 22:20:21 GMT</datecreated>
+			<flags>0</flags>
+			<properties/>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.fantrip.opencms.clickfantrip.elements/schemas/elements/GiftAndFilter.xsd</source>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/schemas/elements/GiftAndFilter.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>11e1579e-161b-11ea-aadc-04922659cd14</uuidstructure>
+			<uuidresource>11e1579f-161b-11ea-aadc-04922659cd14</uuidresource>
+			<datecreated>Tue, 03 Dec 2019 22:20:10 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[GiftAndFilter]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.fantrip.opencms.clickfantrip.elements/schemas/elements/KeyValue.xsd</source>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/schemas/elements/KeyValue.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>11e4b301-161b-11ea-aadc-04922659cd14</uuidstructure>
+			<uuidresource>11e4b302-161b-11ea-aadc-04922659cd14</uuidresource>
+			<datecreated>Tue, 03 Dec 2019 22:20:10 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[KeyValue]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/com.fantrip.opencms.clickfantrip.elements/schemas/elements/regalo.xsd</source>
+			<destination>system/modules/com.fantrip.opencms.clickfantrip.elements/schemas/elements/regalo.xsd</destination>
+			<type>plain</type>
+			<uuidstructure>11e79937-161b-11ea-aadc-04922659cd14</uuidstructure>
+			<uuidresource>11e79938-161b-11ea-aadc-04922659cd14</uuidresource>
+			<datecreated>Tue, 03 Dec 2019 22:20:10 GMT</datecreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[regalo]]></value>
 				</property>
 			</properties>
 			<relations/>

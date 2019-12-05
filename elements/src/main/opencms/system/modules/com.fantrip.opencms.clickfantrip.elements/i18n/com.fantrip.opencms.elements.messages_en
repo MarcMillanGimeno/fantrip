@@ -22,3 +22,7 @@ type.widgets-affiliates.description=Section Widgets Affiliates
 type.widgets-affiliates.formatter=Section Widgets Affiliates
 type.widgets-affiliates.name=Section Widgets Affiliates
 type.widgets-affiliates.title=Section Widgets Affiliates
+type.gift-ft.description=Gift Fantrip
+type.gift-ft.formatter=Gift-Fantrip
+type.gift-ft.name=Gift-Fantrip
+type.gift-ft.title=Gift-Fantrip

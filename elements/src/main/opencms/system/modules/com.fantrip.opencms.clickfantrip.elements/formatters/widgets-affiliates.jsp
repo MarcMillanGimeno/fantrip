@@ -5,17 +5,19 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 
 <cms:formatter var="content" val="value">
-  <div>
-    <div>
-      <img style="width:100%" src="${value.Image.toImage}"/>
-    </div>
-    <div>
-      <h2>${value.Title}</h2>
-      <p>${value.Text}</p>
-    </div>
-    <div>
-      <a href="<cms:link>${value.LinkURI}</cms:link>">Link</a>
-    </div>
-    <div style="clear:right;"></div>
-  </div>
+	<div class="containter-affiliates container-fluid header-container">
+		<div class="row">
+			<div class="header-container-picture col-md-12">
+				<img style="width:100%" src="${value.Image.toImage}"/>
+			</div>
+		</div>
+		<div>
+			<h2>${value.Title}</h2>
+			<p>${value.Text}</p>
+		</div>
+		<div>
+			<a href="<cms:link>${value.LinkURI}</cms:link>">Link</a>
+		</div>
+		<div style="clear:right;"></div>
+	</div>
 </cms:formatter>
