@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+
+	<xsd:element name="Regalos" type="OpenCmsRegalos"/>
+
+	<xsd:complexType name="OpenCmsRegalos">
+		<xsd:sequence>
+			<xsd:element name="Regalo" type="OpenCmsRegalo" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsRegalo">
+		<xsd:sequence>
+			<xsd:element name="Titol" type="OpenCmsString" />
+			<xsd:element name="Text" type="OpenCmsHtml" />
+			<xsd:element name="Preu" type="OpenCmsString" />
+			<xsd:element name="ImagePath" type="OpenCmsVfsFile" />
+			<xsd:element name="Alt" type="OpenCmsString" />
+			<xsd:element name="Link" type="OpenCmsVarLink" minOccurs="0" />
+
+			<xsd:element name="Descripcio" type="OpenCmsString" />
+
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<resourcebundles>
+				<propertybundle name="com.fantrip.opencms.elements.messages" />
+			</resourcebundles>
+			<mappings/>
+			<layouts>
+				<layout element="ImagePath" widget="ImageGalleryWidget" configuration="{useformat:true}" />
+			</layouts>
+			<validationrules>
+				<rule element="Preu" regex="([0-9]++)?(.[0-9]{1})?([0-9]{1})?" message="El valor a introduir ha de ser un número"/>
+			</validationrules>
+			<defaults/>
+		</xsd:appinfo>
+	</xsd:annotation>  
+</xsd:schema>

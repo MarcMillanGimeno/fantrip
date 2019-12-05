@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+		
+	<xsd:element name="KeyValues" type="OpenCmsKeyValues"/>
+	
+	<xsd:complexType name="OpenCmsKeyValues">
+		<xsd:sequence>
+			<xsd:element name="KeyValue" type="OpenCmsKeyValue" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsKeyValue">
+		<xsd:sequence>
+			<xsd:element name="Clave" type="OpenCmsString" minOccurs="1"/>	
+			<xsd:element name="Valor" type="OpenCmsString" minOccurs="1"/>
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>
+	</xsd:complexType>
+	<xsd:annotation>
+		<xsd:appinfo>
+			<resourcebundles>
+                <propertybundle name="com.fantrip.opencms.elements.messages" />
+            </resourcebundles>
+			<mappings/>
+			<layouts/>
+			<validationrules/>
+			<defaults/>
+		</xsd:appinfo>
+	</xsd:annotation>  
+</xsd:schema>
