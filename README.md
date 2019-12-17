@@ -9,5 +9,7 @@ Este proyecto ha sido desarollado por **_Marc Millán Gimeno_** - Desarrollador 
 * Sección escenarios
 * Sección series y películas
 * Sección serie X o película X
+* Sección guía de la serie o película
 
-*** Versión del proyexto*** : **1.2.1**
+***Versión del proyexto*** : **1.2.1**/
+***Fecha de útlima modificación*** : **18/12/2019**
