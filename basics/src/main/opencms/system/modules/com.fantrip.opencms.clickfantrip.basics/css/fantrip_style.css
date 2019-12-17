@@ -734,9 +734,8 @@ a.link-item-footer:hover {
 .containter-affiliates {
 	top: -16px !important;
 	position: relative !important;
-}
-.containter-affiliates{
 	margin-bottom: 40px;
+	min-height: 628px !important;
 }
 .a-carousel-card {
 	max-width: 160px;
@@ -782,8 +781,103 @@ a.link-item-footer:hover {
 	color: fuchsia !important;
 }
 .a-carousel-card{
-    margin-bottom: 40px;
-	}
+	margin-bottom: 40px;
+}
+.tabs-widgets-container{
+	display: block;
+	/*position: absolute;*/
+	/*text-align: center;*/
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+	margin-top: 20px;
+
+}
+
+/* Style tab links */
+.tablink {
+	background-color: #000000ad;
+	color: white;
+	float: right;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	font-size: 17px;
+	width: 33.3%;
+}
+
+.tablink:hover {
+	background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+	color: white;
+	display: none;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 100%;
+}
+
+#Vuelos, #Alquiler-de-coches, #Alojamiento {background-color: #ffffff4d;}
+
+div#Vuelos.tabcontent{
+	padding-bottom: 20px;
+}
+.title-widgets-containers{
+	position: relative;
+	top: 51px;
+}
+.title-header-widgets{
+	float: right;
+	color: white;
+	font-weight: 700;
+	margin-right: 60px;
+}
+.white-line{
+	border-top: 3px solid rgb(255, 255, 255);
+	float: right;
+	right: 179px;
+	position: absolute;
+	top: 28px;
+}
+.container-full-guide{
+	text-align: -webkit-center;
+}
+.row-initial-description{
+	max-width: 1160px !important;
+}
+.img-portada-guia{
+	float: left;
+	width: 100%;
+}
+.title-center-normal{
+	font-size: 23px;
+}
+a.star-icon img {
+	width: 20px !important;
+}
+.row-initial-description{
+	margin-bottom: 40px;
+}
+.blue-link-comments-guide{
+	position: relative;
+	top: 8px;
+	float: left;
+	padding-left: 5px;
+}
+.p-of-x-comments{
+	display: inline;
+	position: relative;
+	top: 8px;
+	float: left;
+	padding-left: 10px;
+}
+.title-center-normal-points{
+	float: left;
+}
 @media (min-width: 1200px){
 	.video-container-simple iframe {
 		width: 803px  !important;

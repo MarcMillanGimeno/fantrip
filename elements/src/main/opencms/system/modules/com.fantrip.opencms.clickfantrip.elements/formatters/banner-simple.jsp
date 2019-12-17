@@ -13,15 +13,15 @@
 
 	<%
 	Boolean displayXL = (Boolean)pageContext.getAttribute("isAvailableXL");
-if(displayXL != null && displayXL != true){ displayXL=false;}
-Boolean displayL = (Boolean)pageContext.getAttribute("isAvailableL");
-if(displayL != null && displayL != true){ displayL=false;}
-Boolean displayM = (Boolean)pageContext.getAttribute("isAvailableM");
-if(displayM != null && displayM != true){ displayM=false;}
-Boolean displayS = (Boolean)pageContext.getAttribute("isAvailableS");
-if(displayS != null && displayS != true){ displayS=false;}
-Boolean displayXS = (Boolean)pageContext.getAttribute("isAvailableXS");
-if(displayXS != null && displayXS != true){ displayXS=false;}
+	if(displayXL != null && displayXL != true){ displayXL=false;}
+	Boolean displayL = (Boolean)pageContext.getAttribute("isAvailableL");
+	if(displayL != null && displayL != true){ displayL=false;}
+	Boolean displayM = (Boolean)pageContext.getAttribute("isAvailableM");
+	if(displayM != null && displayM != true){ displayM=false;}
+	Boolean displayS = (Boolean)pageContext.getAttribute("isAvailableS");
+	if(displayS != null && displayS != true){ displayS=false;}
+	Boolean displayXS = (Boolean)pageContext.getAttribute("isAvailableXS");
+	if(displayXS != null && displayXS != true){ displayXS=false;}
 %>
 
 	<c:set var="id-banner-ft" value="${content.id}" />
