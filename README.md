@@ -12,4 +12,5 @@ Este proyecto ha sido desarollado por **_Marc Millán Gimeno_** - Desarrollador 
 * Sección guía de la serie o película
 
 ***Versión del proyexto*** : **1.2.1**
+
 ***Fecha de útlima modificación*** : **18/12/2019**
