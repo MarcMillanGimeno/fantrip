@@ -1,0 +1,34 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+	<xsd:include schemaLocation="opencms://system/modules/com.fantrip.opencms.clickfantrip.elements/schemas/elements/KeyValue.xsd"/>
+	<xsd:include schemaLocation="opencms://system/modules/com.fantrip.opencms.clickfantrip.elements/schemas/elements/regalo.xsd"/>
+	
+	<xsd:element name="GiftAndFilters" type="OpenCmsGiftAndFilters"/>
+	
+	<xsd:complexType name="OpenCmsGiftAndFilters">
+		<xsd:sequence>
+			<xsd:element name="GiftAndFilter" type="OpenCmsGiftAndFilter" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsGiftAndFilter">
+		<xsd:sequence>
+			<xsd:element name="KeyValue" type="OpenCmsKeyValue" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element name="Regalo" type="OpenCmsRegalo" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>
+	</xsd:complexType>
+	
+	<xsd:annotation>
+		<xsd:appinfo>
+			<resourcebundles>
+                <propertybundle name="com.fantrip.opencms.elements.messages" />
+            </resourcebundles>
+			<mappings/>
+			<layouts/>
+			<validationrules/>
+			<defaults/>
+		</xsd:appinfo>
+	</xsd:annotation>  
+</xsd:schema>

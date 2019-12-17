@@ -24,7 +24,7 @@
 <!-- Navigation -->
 	<nav class="navbar navbar-expand-lg navbar-light">
 		<div class="container">
-			<a class="navbar-brand" href="https://clickfantrip.com">
+			<a class="navbar-brand" href="<cms:link>/es/</cms:link>">
 				<img src="<cms:link>/.content/imatges/FANTRIP-Brand.gif</cms:link>" alt="FanTrip" />
 				<span class="sr-only">FanTrip</span>
 			</a>
@@ -34,19 +34,19 @@
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Escenarios <span class="sr-only">(current)</span></a>
+					<li class="nav-item item-header-scenes">
+						<a class="nav-link" href="<cms:link>/es/escenarios/</cms:link>">Escenarios</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item item-header-guides">
 						<a class="nav-link" href="#">Guías</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Reservar</a>
+					<li class="nav-item item-header-book">
+						<a class="nav-link " href="#">Reservar</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item item-header-blog">
 						<a class="nav-link" href="#">Blog</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item item-header-shop">
 						<a class="nav-link" href="#">Fan Shop</a>
 					</li>
 
@@ -79,4 +79,20 @@
 		</div><!-- container -->
 	</nav> <!-- /Navigation -->
 </formatter>
+
+
+<script>
+	// add and remove .active menu header
+	if (window.location.href.indexOf("escenarios") > -1) {
+		$(".item-header-scenes").addClass("active");
+	}
+</script>
+
+
+
+
+
+
+
+
 

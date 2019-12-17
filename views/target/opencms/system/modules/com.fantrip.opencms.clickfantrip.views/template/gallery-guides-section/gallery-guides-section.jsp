@@ -108,8 +108,6 @@ java.util.List"%>
 			</div>
 		</div>
 		
-		
-		
 		<div class="search-list-destino-footer row">
 			<div class="botton-container justify-content-center col-lg-12 col-md-12">
 				<a class="button-choose-collection" href="/es/destinos/">VER TODA LA COLLECCIÓN</a>
